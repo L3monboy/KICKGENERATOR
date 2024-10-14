@@ -8,8 +8,6 @@ import scipy.io.wavfile as wav
 import numpy as np
 import kick_generator as KickGen
 import settings
-import time
-import threading
 
 class App(tk.Tk):
     def __init__(self):
